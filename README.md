@@ -37,13 +37,13 @@ Drie opties:
 Ik heb zha gekozen ivm grootste integratie/compatibeliteit met Home Assistant
 
 
-Weg met hue hub
+## Weg met hue hub
 
 
 Welke issues loop ik tegenaan?
 
 
-Hoe lampen resetten?
+### Hoe lampen resetten?
 * lampen
     * Lidl: eerst aanzetten dan 3x uit, direct weer heel kort aan, snel achter elkaar
 Ikea: 6x aan/uit achter elkaar
@@ -53,14 +53,14 @@ Ikea: 6x aan/uit achter elkaar
     * hue dimmer: 15 sec knopje setup ingedrukt houden 
 
 
-Kan ik m'n oude apps nog gebruiken? De hue app of hue essentials? 
+## Kan ik m'n oude apps nog gebruiken? De hue app of hue essentials? 
 Ja! Zie onderstaande link: https://github.com/marcelveldt/hass_emulated_hue
 
 
 De software staat nog in de kinderschoenen en er zijn behoorlijk wat losse eindjes, maar in principe werkt het wel! 
 
 
-Hoe knoppen dezelfde functionaliteit laten houden (of meer)
+## Hoe knoppen dezelfde functionaliteit laten houden (of meer)
 Twee opties:
 * Blueprint / yaml automations voor basale functies. werkte prima, maar traploos dimmen was niet zo soepel
 * controllerX https://xaviml.github.io/controllerx/
@@ -72,5 +72,5 @@ ControllerX werkt verreweg het best! bovenstaande site geeft goede documentatie
 Enige waar ik een beetje mee met worstelde was om een groep lampen te dimmen. Oplossing: een light-group maken (in lights.yaml)
 
 
-Zigbee bindings: knoppen ook werkend als HA uit staat
+## Zigbee bindings: knoppen ook werkend als HA uit staat
 dit nog  uitzoeken! Basale functies lijkt te kunnen via bindings. Lijkt te kunnen bij zha onder device properties / clusters. Maar nog niet gelukt https://community.home-assistant.io/t/how-to-bind/171120/15?u=iroquai
