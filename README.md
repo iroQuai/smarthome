@@ -1,4 +1,3 @@
-
 # inleiding
 de  smart home oplossing van Philips Hue werkt goed maar is wel aan de prijs. Lampen zijn gemakkelijk aan te vullen via IKEA tradfri, die ook lampen van prima kwaliteit bieden (niet zo goed als Hue, maar dat is ook niet op alle plekken noodzakelijk, zoals gang of wc). de slimme schakelaars en bewegingsmelders van Ikea worden dan weer niet herkend in de gateway van Hue. Vreemd eigenlijk, want ze zijn wel te koppelen en werken dan ook samen. (Hue Essentials heeft hier goede uitleg en video's over). Deze oplossing werkte acceptabel, maar niet optimaal. Soms deed een knop plots niets meer en het opnieuw pairen van de knop was behoorlijk gedoe.
 
