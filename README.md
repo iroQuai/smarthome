@@ -1,9 +1,7 @@
 # inleiding
 
-Ik heb nu een paar maanden slimme lampen van Philips Hue. Werkt heel goed, maar alle onderdelen zijn behoorlijk prijzig. Gelukkig zijn er diverse andere merken die lampen bieden die ook werken op de Hue gateway. Een bekende daarvan is Ikea Tradfri. Deze lampen zijn van prima kwaliteit (niet zo goed als Hue, maar prima als aanvulling op minder essentiele plekken zoals wc of gang) en bovendien een stuk goedkoper.  
-De slimme schakelaars en bewegingsmelders van Ikea worden helaas niet ondersteund door de hue gateway. Vreemd eigenlijk, want in principe ze zijn wel te koppelen en met een omweg werkt het nog ook (Hue Essentials heeft hier goede uitleg en video's over).  Deze oplossing werkte acceptabel, maar niet optimaal. Soms deed een ikea aan/uitschakelaar het weken perfect, maar soms deed 'ie plotsling niets meer. Het opnieuw pairen van de knop was behoorlijk gedoe en  daarnaast was de knop ook niet zichtbaar in de Hue app. 
-
-[toc] 
+Ik heb nu een paar maanden slimme lampen van [Philips Hue](https://www.philips-hue.com/nl-nl). Werkt heel goed, maar alle onderdelen zijn behoorlijk prijzig. Gelukkig zijn er diverse andere merken die lampen bieden die ook werken op de Hue gateway. Een bekende daarvan is [Ikea Tradfri](https://www.ikea.com/nl/nl/cat/slimme-verlichting-36812/). Deze lampen zijn van prima kwaliteit (niet zo goed als Hue, maar prima als aanvulling op minder essentiele plekken zoals wc of gang) en bovendien een stuk goedkoper.  
+De [slimme schakelaars](https://www.ikea.com/nl/nl/p/tradfri-afstandsbediening-30443124/) en [bewegingsmelders](https://www.ikea.com/nl/nl/p/tradfri-draadloze-bewegingssensor-wit-70429913/) van Ikea worden helaas niet ondersteund door de hue gateway. Vreemd eigenlijk, want in principe ze zijn wel te koppelen en met een omweg werkt het nog ook ([Hue Essentials](https://www.hueessentials.com) heeft hier goede [uitleg en video's](https://community.hueessentials.com/t/how-to-connect-ikea-tradfri-smart-controls-to-a-philips-hue-bridge/69) over).  Deze oplossing werkte acceptabel, maar niet optimaal. Soms deed een ikea aan/uitschakelaar het weken perfect, maar soms deed 'ie plotsling niets meer. Het opnieuw pairen van de knop was behoorlijk gedoe en  daarnaast was de knop ook niet zichtbaar in de Hue app. 
 
 # Hardware 
 
@@ -17,11 +15,11 @@ Om zigbee apparaten rechtstreeks aan Home Assistant te koppelen, heb je een zigb
 # Software: De Zigbee integratie in Home Assistant
 
 Om gebruik te maken van de gateway binnen Home Assistant heb je ook passende software nodig. In het geval van de ConBee II zijn dit de drie meest gebruikte protocollen: 
-- deCONZ: https://www.home-assistant.io/integrations/deconz/
-- Zigbee Home Automation (ZHA) - https://www.home-assistant.io/integrations/zha/
-- Zigbee 2 MQTT (Z2M) - https://github.com/Koenkk/zigbee2mqtt (gebruik m samen met https://github.com/yllibed/Zigbee2MqttAssistant en of https://github.com/azuwis/zigbee2mqtt-networkmap)
+- [deCONZ](https://www.home-assistant.io/integrations/deconz/)
+- [Zigbee Home Automation (ZHA)](https://www.home-assistant.io/integrations/zha/)
+- [Zigbee 2 MQTT (Z2M)](https://github.com/Koenkk/zigbee2mqtt)
 
-Iedere variant heeft voor en nadelen. DeCONZ is software die speciaal voor de COnBee II gemaakt is, zit goedin elkaar en heeft goede ondersteuning. ZHA is volledig 'geintegreerd' binnen Home Assistant en daarmee ben je niet afhankelijk van software van derden. Zigbee 2 MQTT is voor als je graag alles via MQTT aanstuurt. Ik zag daar het nut niet zo van in dus heb die direct links laten liggen. 
+Iedere variant heeft voor en nadelen. DeCONZ is software die speciaal voor de ConBee II gemaakt is, zit goed in elkaar en heeft goede ondersteuning. ZHA is volledig 'geintegreerd' binnen Home Assistant en daarmee ben je niet afhankelijk van software van derden. Zigbee 2 MQTT is voor als je graag alles via MQTT aanstuurt. Ik zag daar het nut niet zo van in dus heb die direct links laten liggen. 
 
 Het aantal ondersteunde devices is nagenoeg gelijk bij de verschillende opties. Ik heb dus voor ZHA gekozen omdat het me prettig leek om alles binnen dezelfde interface aan te sturen (en dus geen gebruik te hoeven maken van DeCONZ). AChteraf was het misschien toch handig geweest om wèl deconz te gebruiken zodat ik een app zoals Hue Essentials kon blijven gebruiken, maar toen ik dat besefte had ik alles al ingesteld via ZHA. 
 
