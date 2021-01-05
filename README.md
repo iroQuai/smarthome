@@ -3,6 +3,8 @@
 Ik heb nu een paar maanden slimme lampen van Philips Hue. Werkt heel goed, maar alle onderdelen zijn behoorlijk prijzig. Gelukkig zijn er diverse andere merken die lampen bieden die ook werken op de Hue gateway. Een bekende daarvan is Ikea Tradfri. Deze lampen zijn van prima kwaliteit (niet zo goed als Hue, maar prima als aanvulling op minder essentiele plekken zoals wc of gang) en bovendien een stuk goedkoper.  
 De slimme schakelaars en bewegingsmelders van Ikea worden helaas niet ondersteund door de hue gateway. Vreemd eigenlijk, want in principe ze zijn wel te koppelen en met een omweg werkt het nog ook (Hue Essentials heeft hier goede uitleg en video's over).  Deze oplossing werkte acceptabel, maar niet optimaal. Soms deed een ikea aan/uitschakelaar het weken perfect, maar soms deed 'ie plotsling niets meer. Het opnieuw pairen van de knop was behoorlijk gedoe en  daarnaast was de knop ook niet zichtbaar in de Hue app. 
 
+[toc] 
+
 # Hardware 
 
 Ik ga er voor het gemak even vanuit dat je Home Assistant al opgezet hebt en daarnaast al enigszins wegwijs bent in Home Assistant als het gaat om installeren van nieuwe software. Ik maak zelf gebruik Hass.io en dus ook de supervisor. Dat is verreweg de makkelijkste manier om onderstaande stappen door te voeren, maar je kan ook zelf losse docker images installeren of handmatig zaken aanpassen.
